@@ -5,6 +5,7 @@ interface IPaginationProps {
     pagination: IPagination
     onPrevious: any;
     onNext: any;
+    temp?: any;
 }
 const Pagination: React.FC<IPaginationProps> = (props) => {
 
